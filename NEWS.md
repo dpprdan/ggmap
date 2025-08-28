@@ -1,3 +1,12 @@
+# ggmap 4.0.2
+
+## Minor improvements and fixes
+
+* Maintenance release preparing for **ggplot2** 4.0.0 (thanks @teunbrand). 
+  Closes #378.
+
+
+
 # ggmap 4.0.1
 
 ## Minor improvements and fixes

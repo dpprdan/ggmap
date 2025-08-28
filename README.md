@@ -39,8 +39,8 @@ client.stadiamaps.com, delete your API key, and create a new one.
 library("ggmap")
 #  Loading required package: ggplot2
 #  ℹ Google's Terms of Service: <https://mapsplatform.google.com>
-#    Stadia Maps' Terms of Service: <https://stadiamaps.com/terms-of-service/>
-#    OpenStreetMap's Tile Usage Policy: <https://operations.osmfoundation.org/policies/tiles/>
+#    Stadia Maps' Terms of Service: <https://stadiamaps.com/terms-of-service>
+#    OpenStreetMap's Tile Usage Policy: <https://operations.osmfoundation.org/policies/tiles>
 #  ℹ Please cite ggmap if you use it! Use `citation("ggmap")` for details.
 
 us <- c(left = -125, bottom = 25.75, right = -67, top = 49)
@@ -200,7 +200,7 @@ revgeocode(c(lon = -97.1161, lat = 31.55098))
 #  !   1437 S University Parks Dr, Waco, TX 76706, USA
 #  !   HV2M+9H Waco, TX, USA
 #  !   Bear Trail, Waco, TX 76706, USA
-#  !   Robinson, TX 76706, USA
+#  !   Waco, TX 76706, USA
 #  !   Waco, TX, USA
 #  !   McLennan County, TX, USA
 #  !   Texas, USA
@@ -209,8 +209,8 @@ revgeocode(c(lon = -97.1161, lat = 31.55098))
 ```
 
 *Note: `geocode()` uses Google’s Geocoding API to geocode addresses.
-Please take care not to disclose sensitive information. [Rundle, Bader,
-and Moody (2022)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8972108/)
+Please take care not to disclose sensitive information. Rundle, Bader,
+and Moody (2022) (`https://pmc.ncbi.nlm.nih.gov/articles/PMC8972108/`)
 have considered this issue and suggest various alternative options for
 such data.*
 
@@ -266,8 +266,8 @@ mapdist(c("houston, texas", "dallas"), "waco, texas")
 #  # A tibble: 2 × 9
 #    from           to               m    km miles seconds minutes hours mode   
 #    <chr>          <chr>        <int> <dbl> <dbl>   <int>   <dbl> <dbl> <chr>  
-#  1 dallas         waco, texas 151451  151.  94.1    5004    83.4  1.39 driving
-#  2 houston, texas waco, texas 293959  294. 183.     9983   166.   2.77 driving
+#  1 dallas         waco, texas 151451  151.  94.1    5010    83.5  1.39 driving
+#  2 houston, texas waco, texas 295079  295. 183.    10112   169.   2.81 driving
 ```
 
 ## Google Maps API key
